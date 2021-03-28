@@ -1,18 +1,18 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+ 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# Other files and folders
-.settings/
+# Dependency directories
+node_modules/
+jspm_packages/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Optional eslint cache
+.eslintcache
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
